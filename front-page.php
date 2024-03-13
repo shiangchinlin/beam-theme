@@ -48,11 +48,8 @@ get_header();
 					wp_reset_postdata();
 				}
 				?>
-
-
-			</section>
-		
-						
+            </section>
+    						
 			<?php
 		endwhile; // End of the loop.
 		?>
