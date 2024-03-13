@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				beam_theme_posted_on();
-				beam_theme_posted_by();
+				// beam_theme_posted_on();
+				// beam_theme_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>

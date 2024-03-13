@@ -13,8 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>testiiiiiiiii</p>
-			<p>testiiiiiiiii</p>
+
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'beam-theme' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
