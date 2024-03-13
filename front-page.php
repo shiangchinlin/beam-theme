@@ -21,7 +21,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 			get_template_part( 'template-parts/content', 'page' );
-			?>
+		    ?>
 
 			<h2><?php esc_html_e( 'Featured Work', 'beam' ); ?></h2>
 
@@ -50,9 +50,14 @@ get_header();
 				?>
             </section>
     						
-			<?php
+		<?php
 		endwhile; // End of the loop.
 		?>
+
+
+        <h2>About Me<h2>
+        <p>test</p>
+
 
 	</main><!-- #main -->
 
