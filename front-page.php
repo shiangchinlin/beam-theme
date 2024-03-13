@@ -23,7 +23,7 @@ get_header();
 			get_template_part( 'template-parts/content', 'page' );
 			?>
 
-			<h2><?php esc_html_e( 'featured work', 'beam' ); ?></h2>
+			<h2><?php esc_html_e( 'Featured Work', 'beam' ); ?></h2>
 
 			<section class="home-blog">
 				<?php
@@ -36,7 +36,7 @@ get_header();
 					while ( $blog_query -> have_posts() ) {
 						$blog_query -> the_post();
 						?>
-						<article class="home-recent-news">
+						<article class="home-work">
 							<a href="<?php echo the_permalink(); ?>">
 								<?php the_post_thumbnail( 'landscape-home-blog' ); ?>
 								<h3><?php echo the_title(); ?></h3>
