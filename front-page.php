@@ -28,10 +28,6 @@ get_header();
 		?>
 
 
-        <h2>About Me<h2>
-        <p>test</p>
-
-
 	</main><!-- #main -->
 
 <?php

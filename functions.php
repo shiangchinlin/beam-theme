@@ -139,6 +139,14 @@ add_action( 'widgets_init', 'beam_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function beam_theme_scripts() {
+
+	wp_enqueue_style( 
+		'beam-googlefonts', //handle (a unique name)
+		'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap',
+		array(), //dependencies
+		null // Set null if loading multiple Google Fonts from their CDN
+		);
+
 	wp_enqueue_style( 'beam-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'beam-theme-style', 'rtl', 'replace' );
 
