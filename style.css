@@ -772,12 +772,8 @@ body * {
 	display: none;
 }
 
-div.wp-block-spacer {
+div.wp-block-spacer.home-banner-spacer {
 	background: linear-gradient(to top, #CB9D81, #373F48);
-}
-
-div.wp-block-spacer.home-work-spacer {
-	background: linear-gradient(to top, #373F48, #373F48);
 }
 
 span.edit-link {
@@ -786,7 +782,7 @@ span.edit-link {
 
 @media screen and (min-width: 37.5em) {
 	p.has-text-align-center.home-name.has-x-large-font-size {
-		margin: 5rem;
+		margin: 0 0 5rem 0;
 	}
 }
 /* Comments
