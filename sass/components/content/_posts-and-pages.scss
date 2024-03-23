@@ -21,3 +21,30 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+
+.post-7 .entry-header .entry-title {
+    display: none;
+}
+
+
+div.wp-block-spacer {
+	background: linear-gradient(to top, #CB9D81, #373F48);
+}
+
+div.wp-block-spacer.home-work-spacer {
+	background: linear-gradient(to top, #373F48, #373F48);
+}
+
+span.edit-link {
+	display: none;
+}
+
+@media screen and (min-width: 37.5em) {
+
+p.has-text-align-center.home-name.has-x-large-font-size {
+	margin: 5rem;
+}
+
+
+}
