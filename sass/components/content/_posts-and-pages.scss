@@ -27,7 +27,27 @@
     display: none;
 }
 
+.home-name {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 600;
+}
 
+.home-title {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 400;
+	width: 80%;
+}
+
+.animation-background {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
 
 // div.wp-block-spacer.home-banner-spacer {
 // 	background: conic-gradient(from 240deg, #373F48, #CB9D81, #373F48)
@@ -39,28 +59,28 @@ span.edit-link {
 }
 
 
-// .animation-background {
-//     background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
-//     background-size: 400% 400%;
-//     animation: background-gradient 15s ease infinite;
-//     height: 100vh;
-//     font-size: 1rem;
-//     color: white;
-// }
+.animation-background {
+    background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
+    background-size: 400% 400%;
+    animation: background-gradient 15s ease infinite;
+    height: 100vh;
+    font-size: 1rem;
+    color: white;
+}
 
-// @keyframes background-gradient {
-//     0% {
-//         background-position: 0% 50%;
-//     }
+@keyframes background-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
 
-//     50% {
-//         background-position: 100% 50%;
-//     }
+    50% {
+        background-position: 100% 50%;
+    }
 
-//     100% {
-//         background-position: 0% 50%;
-//     }
-// }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 @media screen and (min-width: 37.5em) {
 
@@ -68,34 +88,21 @@ p.has-text-align-center.home-name.has-x-large-font-size {
 	margin: 0 0 5rem 0;
 }
 
-// div.wp-block-spacer.home-about-spacer,
-// div.wp-block-spacer.home-banner-spacer {
-// 	background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
-// }
+div.wp-block-spacer.home-about-spacer {
+	background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
+}
 
 
-// .animation-background {
-//     background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
-//     background-size: 400% 400%;
-//     animation: background-gradient 15s ease infinite;
-//     height: 100vh;
-//     font-size: 1rem;
-//     color: white;
-// }
+.home-name {
+	font-size: 4.5rem;
+	font-weight: 600;
+	letter-spacing: .8rem;
+}
 
-// @keyframes background-gradient {
-//     0% {
-//         background-position: 0% 50%;
-//     }
-
-//     50% {
-//         background-position: 100% 50%;
-//     }
-
-//     100% {
-//         background-position: 0% 50%;
-//     }
-// }
+.home-title {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
 
 
 }

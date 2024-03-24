@@ -17,9 +17,10 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-	<div class="animation-background">
-		<h1 class="fw-light text-white m-0">CSS Gradient Background Animation</h1>
-	</div>
+	<section class="animation-background">
+		<h1 class="home-name">JEAN LIN</h1>
+		<h2 class="home-title">Front-End Web Developer | Web Designer</h2>
+	</section>
 
 		<?php
 		while ( have_posts() ) :
