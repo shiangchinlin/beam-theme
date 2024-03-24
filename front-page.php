@@ -17,6 +17,10 @@ get_header();
 
 	<main id="primary" class="site-main">
 
+	<div class="animation-background">
+		<h1 class="fw-light text-white m-0">CSS Gradient Background Animation</h1>
+	</div>
+
 		<?php
 		while ( have_posts() ) :
 			the_post();

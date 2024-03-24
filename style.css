@@ -654,6 +654,14 @@ body * {
 .site-header {
 	display: flex;
 	justify-content: space-between;
+	background-color: #373F48;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.site-branding {
+	padding: 0;
 }
 
 .main-navigation {
@@ -698,7 +706,7 @@ body * {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: none;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -710,13 +718,6 @@ body * {
 		margin: 1rem;
 	}
 	.main-navigation li {
-		padding: 1rem;
-	}
-	.site-header {
-		display: flex;
-		justify-content: space-between;
-	}
-	.site-branding {
 		padding: 1rem;
 	}
 }
@@ -770,10 +771,6 @@ body * {
 
 .post-7 .entry-header .entry-title {
 	display: none;
-}
-
-div.wp-block-spacer.home-banner-spacer {
-	background: linear-gradient(to top, #CB9D81, #373F48);
 }
 
 span.edit-link {

@@ -42,7 +42,16 @@ body {
 .site-header {
 	display: flex;
 	justify-content: space-between;
+	background-color: #373F48;
+	position: fixed;
+	top: 0;
+	width: 100%
 }
+
+.site-branding {
+	padding: 0;
+}
+
 
 .main-navigation {
 	display: block;
@@ -118,8 +127,9 @@ body {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: none;
 }
+
 
 @media screen and (min-width: 37.5em) {
 
@@ -136,14 +146,8 @@ body {
 		padding: 1rem;
 	}
 
-	.site-header {
-		display: flex;
-		justify-content: space-between;
-	}
 
-	.site-branding {
-		padding: 1rem;
-	}
+
 
 }
 

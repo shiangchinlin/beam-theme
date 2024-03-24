@@ -34,6 +34,11 @@
 
 	<div class="entry-content">
 		<?php
+
+		if ( is_single() ) {
+			the_content();
+		} 
+				
 		// the_content(
 		// 	sprintf(
 		// 		wp_kses(

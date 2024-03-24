@@ -1,3 +1,5 @@
+// source : https://codepen.io/kjbrum/pen/qooQJJ
+
 var cursor = {
     delay: 8,
     _x: 0,
