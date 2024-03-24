@@ -68,41 +68,66 @@ span.edit-link {
     color: white;
 }
 
-@keyframes background-gradient {
-    0% {
-        background-position: 0% 50%;
-    }
+	@keyframes background-gradient {
+		0% {
+			background-position: 0% 50%;
+		}
 
-    50% {
-        background-position: 100% 50%;
-    }
+		50% {
+			background-position: 100% 50%;
+		}
 
-    100% {
-        background-position: 0% 50%;
-    }
-}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
+
+	.wp-block-media-text__media {
+		width: 60%;
+		justify-self: center;
+	}
+
+	
+		// --------------------- work archive --------------------
+
+	.post-19,
+	.post-17,
+	.post-15,
+	.post-13 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin: 1rem;
+	}
+
 
 @media screen and (min-width: 37.5em) {
 
-p.has-text-align-center.home-name.has-x-large-font-size {
-	margin: 0 0 5rem 0;
-}
+	p.has-text-align-center.home-name.has-x-large-font-size {
+		margin: 0 0 5rem 0;
+	}
 
-div.wp-block-spacer.home-about-spacer {
-	background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
-}
+	div.wp-block-spacer.home-about-spacer {
+		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
+	}
 
 
-.home-name {
-	font-size: 4.5rem;
-	font-weight: 600;
-	letter-spacing: .8rem;
-}
+	.home-name {
+		font-size: 4.5rem;
+		font-weight: 600;
+		letter-spacing: .8rem;
+	}
 
-.home-title {
-	font-size: 1.2rem;
-	font-weight: 400;
-}
+	.home-title {
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+
+	.wp-block-media-text__media {
+		width: 40%;
+	}
 
 
 }

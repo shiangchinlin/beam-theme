@@ -16,6 +16,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+		<h1>Work</h1>
 
 		<?php
 		if ( have_posts() ) :
