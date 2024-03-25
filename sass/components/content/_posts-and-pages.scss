@@ -31,6 +31,7 @@
 	text-align: center;
 	font-size: 3rem;
 	font-weight: 600;
+	margin: 0;
 }
 
 .home-title {
@@ -60,7 +61,7 @@ span.edit-link {
 
 
 .animation-background {
-    background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
+    background: linear-gradient(-45deg, #373F48, #373F48, #CB9D81);
     background-size: 400% 400%;
     animation: background-gradient 5s ease infinite;
     height: 100vh;
@@ -89,7 +90,7 @@ span.edit-link {
 	}
 
 	
-		// --------------------- work archive --------------------
+	// --------------------- work archive --------------------
 
 	.post-19,
 	.post-17,
@@ -113,21 +114,34 @@ span.edit-link {
 		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
 	}
 
-
 	.home-name {
 		font-size: 4.5rem;
 		font-weight: 600;
-		letter-spacing: .8rem;
+		letter-spacing: .4rem;
 	}
 
 	.home-title {
 		font-size: 1.2rem;
 		font-weight: 400;
+		margin:0;
 	}
 
 	.wp-block-media-text__media {
 		width: 40%;
 	}
 
+}
 
+
+@media screen and (min-width: 50em) {
+	.home-name {
+		font-size: 7rem;
+	}
+
+	.home-title {
+		font-size: 2rem;
+		width: 100%;
+	}
+
+	
 }

@@ -522,7 +522,7 @@ a {
 	color: #ffffff;
 }
 a:visited {
-	color: #CB9D81;
+	color: #ffffff;
 }
 a:hover, a:focus, a:active {
 	color: #e7e7e7;
@@ -720,6 +720,9 @@ body * {
 	.main-navigation li {
 		padding: 1rem;
 	}
+	.main-navigation a {
+		font-size: 1.5rem;
+	}
 }
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -777,6 +780,7 @@ body * {
 	text-align: center;
 	font-size: 3rem;
 	font-weight: 600;
+	margin: 0;
 }
 
 .home-title {
@@ -799,7 +803,7 @@ span.edit-link {
 }
 
 .animation-background {
-	background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
+	background: linear-gradient(-45deg, #373F48, #373F48, #CB9D81);
 	background-size: 400% 400%;
 	animation: background-gradient 5s ease infinite;
 	height: 100vh;
@@ -844,14 +848,24 @@ span.edit-link {
 	.home-name {
 		font-size: 4.5rem;
 		font-weight: 600;
-		letter-spacing: 0.8rem;
+		letter-spacing: 0.4rem;
 	}
 	.home-title {
 		font-size: 1.2rem;
 		font-weight: 400;
+		margin: 0;
 	}
 	.wp-block-media-text__media {
 		width: 40%;
+	}
+}
+@media screen and (min-width: 50em) {
+	.home-name {
+		font-size: 7rem;
+	}
+	.home-title {
+		font-size: 2rem;
+		width: 100%;
 	}
 }
 /* Comments
