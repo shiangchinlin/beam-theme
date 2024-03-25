@@ -654,7 +654,7 @@ body * {
 .site-header {
 	display: flex;
 	justify-content: space-between;
-	background-color: #373F48;
+	background-color: transparent;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -801,7 +801,7 @@ span.edit-link {
 .animation-background {
 	background: linear-gradient(-45deg, #373F48, #CB9D81, #373F48, #CB9D81);
 	background-size: 400% 400%;
-	animation: background-gradient 15s ease infinite;
+	animation: background-gradient 5s ease infinite;
 	height: 100vh;
 	font-size: 1rem;
 	color: white;
