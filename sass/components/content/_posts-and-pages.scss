@@ -50,10 +50,6 @@
 	
 }
 
-// div.wp-block-spacer.home-banner-spacer {
-// 	background: conic-gradient(from 240deg, #373F48, #CB9D81, #373F48)
-// };
-
 
 span.edit-link {
 	display: none;
@@ -87,6 +83,15 @@ span.edit-link {
 	.wp-block-media-text__media {
 		width: 60%;
 		justify-self: center;
+	}
+
+
+	.wp-block-heading.has-text-align-center {
+		margin: 0 0 2rem 0;
+	}
+
+	.wpcp-carousel-content-wrapper {
+		margin: 1rem 0;
 	}
 
 	

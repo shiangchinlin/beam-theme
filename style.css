@@ -821,6 +821,26 @@ span.edit-link {
 	display: none;
 }
 
+.animation-background {
+	background: linear-gradient(-45deg, #373F48, #373F48, #CB9D81);
+	background-size: 400% 400%;
+	animation: background-gradient 5s ease infinite;
+	height: 100vh;
+	font-size: 1rem;
+	color: white;
+}
+
+@keyframes background-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .wp-block-media-text__media {
 	width: 60%;
 	justify-self: center;
@@ -876,35 +896,82 @@ span.edit-link {
 	}
 }
 .site-info {
-	margin: 0 0 5rem 0;
+	padding: 0.5rem 0 0.5rem 0;
+	background-color: #F5F6F6;
+	color: #373F48;
 }
 
 .contact-heading {
 	text-align: center;
+	margin: 0.5rem;
 }
 
 .contact-text {
 	text-align: center;
+	margin: 0.5rem 0 1.5rem 0;
 }
 
 .menu-social-menu-footer-right-side-container ul {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
 	list-style-type: none;
-	margin: 0 2rem;
+	margin: 0 2.5rem;
+	zoom: 1.5;
+	padding: 0;
+	text-align: center;
 }
 
 .footer-author {
 	text-align: center;
-	margin: 1rem 0;
+	font-size: 0.8rem;
+	margin: 2rem 0;
+	padding: 0.5rem;
+	background-color: #373F48;
+	color: #F5F6F6;
+}
+
+.menu-item-97 svg:hover {
+	background-color: #CB9D81;
 }
 
 @media screen and (min-width: 50em) {
 	.site-info {
 		margin: 0 0 3rem 0;
 	}
+	.footer-author {
+		margin: 3rem 0 0 0;
+	}
 }
+.site-main h1 {
+	text-align: center;
+}
+
+.post-19 a,
+.post-17 a,
+.post-15 a,
+.post-13 a {
+	text-decoration: none;
+}
+
+.post-19 h2,
+.post-17 h2,
+.post-15 h2,
+.post-13 h2 {
+	font-size: 1rem;
+}
+
+.page-about-main {
+	margin: 0 1rem;
+}
+
+.page-about-main p {
+	text-align: center;
+}
+
+.entry-title {
+	display: none;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
