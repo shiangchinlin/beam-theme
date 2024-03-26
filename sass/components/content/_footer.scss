@@ -1,28 +1,44 @@
 
 
 .site-info {
-    margin: 0 0 5rem 0;
+    padding: .5rem 0 .5rem 0;
+    background-color: $subcolor;
+    color: $primart-color-dark;
 }
 
 .contact-heading {
     text-align: center;
+    margin: .5rem;
 }
 
 .contact-text {
     text-align: center;
+    margin: .5rem 0 1.5rem 0;
 }
 
 .menu-social-menu-footer-right-side-container ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
     list-style-type: none;
-    margin: 0 2rem;
+    margin: 0 2.5rem;
+    zoom: 1.5;
+    padding: 0;
+    text-align: center;
 }
 
 .footer-author {
     text-align: center;
-    margin: 1rem 0;
+    font-size: .8rem;
+    margin: 2rem 0;
+    padding: .5rem;
+    background-color: $primart-color-dark;
+    color: $subcolor;
+}
+
+.menu-item-97 svg{
+    &:hover {
+		background-color: $primart-color-light;
+	}
 }
 
 
@@ -31,4 +47,7 @@
         margin: 0 0 3rem 0;
     }
 
+    .footer-author {
+        margin: 3rem 0 0 0;
+    }
 }
