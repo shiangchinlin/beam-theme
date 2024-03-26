@@ -19,3 +19,22 @@ input[type="submit"] {
 		border-color: $color__border-button-focus;
 	}
 }
+
+
+.wp-block-buttons>.wp-block-button {
+	margin: 1rem 0 0 0;
+}
+
+.wp-block-button__link {
+	border-radius: 0px;
+	width: 16rem;
+	height: 2.5rem;
+	background-color: $primart-color-dark;
+	border: solid 2px $primart-color-light;
+	font-size: 1rem;
+	padding: .5rem 0 0 0;
+
+	&:hover {
+		background-color: $primart-color-light;
+	}
+}
