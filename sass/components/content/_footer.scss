@@ -1,0 +1,34 @@
+
+
+.site-info {
+    margin: 0 0 5rem 0;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.menu-social-menu-footer-right-side-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style-type: none;
+    margin: 0 2rem;
+}
+
+.footer-author {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 50em) {
+    .site-info {
+        margin: 0 0 3rem 0;
+    }
+
+}
