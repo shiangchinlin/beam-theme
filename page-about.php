@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main page-about-main">
 
 
 		<div class="entry-content">
@@ -23,7 +23,7 @@ get_header();
 			if ( function_exists ( 'get_field' ) ) {
 		
 				if ( get_field( 'about_heading1' ) ) {
-					echo '<h2>'. get_field( 'about_heading1' ) .'</h2>';
+					echo '<h1>'. get_field( 'about_heading1' ) .'</h1>';
 				}
 				
 				if ( get_field( 'about_image' ) ) {
