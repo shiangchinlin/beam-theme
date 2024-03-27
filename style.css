@@ -468,11 +468,6 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
-}
-
 ul {
 	list-style: disc;
 }
@@ -672,7 +667,6 @@ body * {
 	display: flex;
 	justify-content: space-between;
 	background-color: transparent;
-	top: 0;
 	width: 100%;
 }
 
@@ -970,6 +964,15 @@ span.edit-link {
 
 .entry-title {
 	display: none;
+}
+
+.post-13 h1 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.wp-block-heading.has-text-align-center.work-yd-h2 {
+	margin: 1rem 0 0 0;
 }
 
 /* Comments
