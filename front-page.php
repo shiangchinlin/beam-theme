@@ -17,8 +17,8 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-	<section class="animation-background">
-		<div class="coverphoto"></div>
+	<section class="coverphoto">
+		<!-- <div class="coverphoto"></div> -->
 		<h1 class="home-firstname">JEAN</h1>
 		<h1 class="home-lastname">LIN</h1>
 			<h2 class="home-title-1">Front-End</h2>

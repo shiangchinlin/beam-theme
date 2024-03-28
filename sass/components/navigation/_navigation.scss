@@ -131,7 +131,7 @@ body {
 
 	.site-header {
 		position: fixed;
-		display: flex;
+		// display: flex;
 		// justify-content: space-between;
 		background-color: transparent;
 		top: 3rem;
@@ -145,6 +145,7 @@ body {
 
 	.main-navigation ul {
 		display: flex;
+		flex-direction: column;
 		margin: 1rem 3rem 0 0;
 	}
 

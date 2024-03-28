@@ -1,12 +1,13 @@
 
 
 .coverphoto {
-    height: 250vh;
-    background-image: url('image/coverphoto-v2.png');
+    height: 100vh;
+    width: 100%;
+    background-image: url('image/coverphoto-mobile.png');
     background-repeat: no-repeat;
     background-position: center;
-    zoom: 0.3;
-    margin: 10rem 0 5rem 0;
+    zoom: 0.8;
+    margin: 2rem 0 2rem 0;
     position: relative;
 }
 
@@ -66,28 +67,28 @@ span.edit-link {
 }
 
 
-.animation-background {
-    background: linear-gradient(135deg, #373F48, #373F48, #252525);
-    background-size: 400% 400%;
-    animation: background-gradient 5s ease infinite;
-    height: 100vh;
-    font-size: 1rem;
-    color: white;
-}
+// .animation-background {
+//     background: linear-gradient(135deg, #373F48, #373F48, #252525);
+//     background-size: 400% 400%;
+//     animation: background-gradient 5s ease infinite;
+//     height: 100vh;
+//     font-size: 1rem;
+//     color: white;
+// }
 
-	@keyframes background-gradient {
-		0% {
-			background-position: 0% 50%;
-		}
+// 	@keyframes background-gradient {
+// 		0% {
+// 			background-position: 0% 50%;
+// 		}
 
-		50% {
-			background-position: 100% 50%;
-		}
+// 		50% {
+// 			background-position: 100% 50%;
+// 		}
 
-		100% {
-			background-position: 0% 50%;
-		}
-	}
+// 		100% {
+// 			background-position: 0% 50%;
+// 		}
+// 	}
 
 
     // heading
@@ -101,8 +102,8 @@ span.edit-link {
 @media screen and (min-width: 37.5em) {
 
     .coverphoto {
-        zoom: 0.5;
-        height: 230vh;
+        zoom: 1;
+        height: 100vh;
     }
 
 	.home-firstname {
@@ -146,75 +147,73 @@ span.edit-link {
 @media screen and (min-width: 50em) {
     
     .coverphoto {
-        zoom: 0.6;
-        height: 230vh;
+        background-image: url('image/coverphoto-desktop.png');
+        zoom: 1;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
     }
 
 	.home-firstname {
-		font-size: 6rem;
-        top: 13rem;
+		font-size: 7rem;
+        top: 10rem;
+        left: 12rem;
 	}
 
     .home-lastname {
-        font-size: 6rem;
+        font-size: 7rem;
         top: 18rem;
+        left: 12rem;
     }
 
     .home-title-1 {
         font-size: 2rem;
-        bottom: 8rem;
+        bottom: 12rem;
+        right: 12rem;
     }
     
     .home-title-2 {
         font-size: 2rem;
-        bottom: 5rem;
+        bottom: 9rem;
+        right: 12rem;
     }
     
     .home-title-3 {
         font-size: 2rem;
-        bottom: 2rem;
+        bottom: 6rem;
+        right: 12rem;
     }
 	
 }
 
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 70em) {
     
     .coverphoto {
-        zoom: 0.8;
-        height: 180vh;
+        zoom: 1;
+        height: 100vh;
         margin: 3rem 0 5rem 0;
     }
 
 	.home-firstname {
-		font-size: 10rem;
-        top: 12rem;
-        left: 4.5rem;
+		font-size: 8rem;
         text-shadow: $primart-color-light 1px 0 10px;
 	}
 
     .home-lastname {
-        font-size: 10rem;
-        top: 22rem;
-        left: 4.5rem;
+        font-size: 8rem;
         text-shadow: $primart-color-light 1px 0 10px;
     }
 
     .home-title-1 {
         font-size: 3rem;
-        bottom: 7.5rem;
-        right: 5rem;
     }
     
     .home-title-2 {
         font-size: 3rem;
-        bottom: 4.5rem;
-        right: 5rem;
     }
     
     .home-title-3 {
         font-size: 3rem;
-        bottom: 1.5rem;
-        right: 5rem;
     }
 	
 }
@@ -222,7 +221,7 @@ span.edit-link {
 @media screen and (min-width: 120em) {
     
     .coverphoto {
-        zoom: 1.3;
-        height: 90vh;
+        zoom: 1;
+        height: 100vh;
     }
 }
