@@ -142,7 +142,7 @@ function beam_theme_scripts() {
 
 	wp_enqueue_style( 
 		'beam-googlefonts', //handle (a unique name)
-		'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap',
+		'https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet',
 		array(), //dependencies
 		null // Set null if loading multiple Google Fonts from their CDN
 		);

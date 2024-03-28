@@ -18,8 +18,12 @@ get_header();
 	<main id="primary" class="site-main">
 
 	<section class="animation-background">
-		<h1 class="home-name">JEAN LIN</h1>
-		<h2 class="home-title">Front-End Web Developer | Web Designer</h2>
+		<div class="coverphoto"></div>
+		<h1 class="home-firstname">JEAN</h1>
+		<h1 class="home-lastname">LIN</h1>
+			<h2 class="home-title-1">Front-End</h2>
+			<h2 class="home-title-2">Web Developer</h2>
+			<h2 class="home-title-3">Web Designer</h2>
 	</section>
 
 		<?php
