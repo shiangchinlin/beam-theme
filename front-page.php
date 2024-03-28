@@ -26,6 +26,59 @@ get_header();
 			<h2 class="home-title-3">Web Designer</h2>
 	</section>
 
+	<section>
+		<div class="wrap">
+		<div class="line">
+		<div class="left">
+			<div class="content">
+			<span class="spanSlow">Aladdin</span>
+			</div>
+		</div><!--
+		--><div class="right">
+			<div class="content">
+			<span class="spanSlow">Aladdin</span>
+			</div>
+		</div>
+		</div>
+		<div class="line">
+		<div class="left">
+			<div class="content">
+			<span class="spanSlow">What do</span>
+			</div>
+		</div><!--
+		--><div class="right">
+			<div class="content">
+			<span class="spanSlow">what do</span>
+			</div>
+		</div>
+		</div>
+		<div class="line">
+			<div class="left">
+				<div class="content">
+				<span class="spanFast">you</span>
+				</div>
+			</div><!--
+			--><div class="right">
+				<div class="content">
+				<span class="spanFast">you</span>
+				</div>
+			</div>
+			</div>
+			<div class="line">
+				<div class="left">
+				<div class="content">
+					<span class="spanSlow">want</span>
+				</div>
+				</div><!--
+				--><div class="right">
+				<div class="content">
+					<span class="spanSlow">want</span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 		<?php
 		while ( have_posts() ) :
 			the_post();
