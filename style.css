@@ -760,18 +760,6 @@ body * {
 	flex: 1 0 50%;
 }
 
-@media screen and (min-width: 80em) {
-	.main-navigation ul {
-		display: flex;
-		margin: 6rem 0 0 4rem;
-	}
-	.main-navigation li {
-		padding: 0.5rem 2.5rem;
-	}
-	.main-navigation a {
-		font-size: 1.5rem;
-	}
-}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -951,7 +939,7 @@ span.edit-link {
 }
 
 .animation-background {
-	background: linear-gradient(135deg, #373F48, #373F48, #CB9D81);
+	background: linear-gradient(135deg, #373F48, #373F48, #252525);
 	background-size: 400% 400%;
 	animation: background-gradient 5s ease infinite;
 	height: 100vh;
