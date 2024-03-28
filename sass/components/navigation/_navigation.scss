@@ -182,3 +182,22 @@ body {
 		flex: 1 0 50%;
 	}
 }
+
+
+@media screen and (min-width: 80em) {
+	
+	.main-navigation ul {
+		display: flex;
+		margin: 6rem 0 0 4rem;
+	}
+
+	.main-navigation li  {
+		padding: .5rem 2.5rem;
+	}
+
+	.main-navigation a {
+		font-size: 1.5rem;
+
+	}
+
+}
