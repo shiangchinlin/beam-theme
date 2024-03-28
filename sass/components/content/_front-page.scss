@@ -66,28 +66,28 @@ span.edit-link {
 }
 
 
-// .animation-background {
-//     background: linear-gradient(135deg, #373F48, #373F48, #CB9D81);
-//     background-size: 400% 400%;
-//     animation: background-gradient 5s ease infinite;
-//     height: 100vh;
-//     font-size: 1rem;
-//     color: white;
-// }
+.animation-background {
+    background: linear-gradient(135deg, #373F48, #373F48, #CB9D81);
+    background-size: 400% 400%;
+    animation: background-gradient 5s ease infinite;
+    height: 100vh;
+    font-size: 1rem;
+    color: white;
+}
 
-// 	@keyframes background-gradient {
-// 		0% {
-// 			background-position: 0% 50%;
-// 		}
+	@keyframes background-gradient {
+		0% {
+			background-position: 0% 50%;
+		}
 
-// 		50% {
-// 			background-position: 100% 50%;
-// 		}
+		50% {
+			background-position: 100% 50%;
+		}
 
-// 		100% {
-// 			background-position: 0% 50%;
-// 		}
-// 	}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
 
 
     // heading
