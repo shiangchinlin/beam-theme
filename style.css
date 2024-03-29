@@ -799,7 +799,7 @@ body * {
 
 .site-info {
 	padding: 0.5rem 0 0.5rem 0;
-	background-color: #F5F6F6;
+	background-color: #CB9D81;
 	color: #373F48;
 }
 
@@ -898,20 +898,15 @@ body * {
 	font-size: 3.5rem;
 	margin: 0;
 	color: #CB9D81;
-	position: absolute;
-	top: 12rem;
-	left: 1rem;
-	z-index: 99;
+	font-family: "Bodoni Moda";
 }
 
 .home-lastname {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	margin: 0;
 	color: #CB9D81;
-	position: absolute;
-	top: 15rem;
-	left: 1rem;
-	z-index: 99;
+	font-family: "Bodoni Moda";
+	text-shadow: #CB9D81 1px 0 10px;
 }
 
 .home-title-1 {
@@ -939,9 +934,20 @@ span.edit-link {
 	display: none;
 }
 
-.wp-block-heading.has-text-align-center {
-	margin: 0 0 2rem 0;
-	color: #CB9D81;
+.wp-block-heading,
+.contact-heading {
+	color: #fff;
+	font-size: 1.8rem;
+	margin: 1rem;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	text-shadow: #CB9D81 1px 0 10px;
+}
+
+.wp-block-media-text__media img {
+	width: auto;
+	margin: 0 0 1rem 4rem;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -973,6 +979,15 @@ span.edit-link {
 		font-size: 2rem;
 		bottom: 4.5rem;
 		right: 2rem;
+	}
+	.wp-block-heading {
+		margin: 1rem;
+		color: #fff;
+		font-weight: 400;
+		font-size: 2rem;
+		font-family: "Montserrat", sans-serif;
+		text-transform: uppercase;
+		text-shadow: #CB9D81 1px 0 10px;
 	}
 	div.wp-block-spacer.home-about-spacer {
 		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
@@ -1042,6 +1057,58 @@ span.edit-link {
 		height: 100vh;
 	}
 }
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sliding-effect-section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.line {
+	width: 100vw;
+}
+
+.left, .right {
+	width: 50vw;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.left {
+	color: #CB9D81;
+	transform: skew(0deg, -15deg);
+}
+
+.right {
+	color: white;
+	transform: skew(0deg, 15deg);
+}
+
+.left .content {
+	width: 100vw;
+	text-align: center;
+}
+
+.right .content {
+	width: 100vw;
+	text-align: center;
+	transform: translate(-50vw);
+}
+
+span {
+	display: inline-block;
+	font-size: 10vw;
+	text-transform: uppercase;
+	line-height: 0.8;
+	transition: ease-out 0.6s;
+	text-shadow: #CB9D81 1px 0 10px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {

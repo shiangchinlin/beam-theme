@@ -19,64 +19,43 @@ get_header();
 
 	<section class="coverphoto">
 		<!-- <div class="coverphoto"></div> -->
-		<h1 class="home-firstname">JEAN</h1>
-		<h1 class="home-lastname">LIN</h1>
+		<!-- <h1 class="home-firstname">JEAN</h1>
+		<h1 class="home-lastname">LIN</h1> -->
 			<h2 class="home-title-1">Front-End</h2>
 			<h2 class="home-title-2">Web Developer</h2>
 			<h2 class="home-title-3">Web Designer</h2>
-	</section>
+	
 
-	<section>
-		<div class="wrap">
-		<div class="line">
-		<div class="left">
-			<div class="content">
-			<span class="spanSlow">Aladdin</span>
-			</div>
-		</div><!--
-		--><div class="right">
-			<div class="content">
-			<span class="spanSlow">Aladdin</span>
-			</div>
-		</div>
-		</div>
-		<div class="line">
-		<div class="left">
-			<div class="content">
-			<span class="spanSlow">What do</span>
-			</div>
-		</div><!--
-		--><div class="right">
-			<div class="content">
-			<span class="spanSlow">what do</span>
-			</div>
-		</div>
-		</div>
-		<div class="line">
-			<div class="left">
-				<div class="content">
-				<span class="spanFast">you</span>
-				</div>
-			</div><!--
-			--><div class="right">
-				<div class="content">
-				<span class="spanFast">you</span>
-				</div>
-			</div>
-			</div>
-			<div class="line">
-				<div class="left">
-				<div class="content">
-					<span class="spanSlow">want</span>
-				</div>
-				</div><!--
-				--><div class="right">
-				<div class="content">
-					<span class="spanSlow">want</span>
-				</div>
-				</div>
-			</div>
-		</div>
+		<section class="sliding-effect-section">
+            <div class="wrap">
+                <div class="line">
+                  <div class="left">
+                    <div class="content">
+                      <span class="spanSlow">JEAN</span>
+                    </div>
+                  </div><!--
+                  --><div class="right">
+                    <div class="content">
+                      <span class="spanSlow">JEAN</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="left">
+                    <div class="content">
+                      <span class="spanSlow">LIN</span>
+                    </div>
+                  </div><!--
+                  --><div class="right">
+                    <div class="content">
+                      <span class="spanSlow">LIN</span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+	
 	</section>
 
 		<?php
@@ -88,6 +67,11 @@ get_header();
 		<?php
 		endwhile; // End of the loop.
 		?>
+	
+	<div class="home-decoration">
+		<!-- <p class="home-firstname">JEAN</p> -->
+		<p class="home-lastname">JEAN LIN</p>
+	</div>
 
 
 	</main><!-- #main -->

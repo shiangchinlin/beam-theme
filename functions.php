@@ -154,6 +154,8 @@ function beam_theme_scripts() {
 
 	wp_enqueue_script( 'beam-theme-cursor', get_template_directory_uri() . '/js/cursor.js', array(), _S_VERSION, true );
 
+	wp_enqueue_script( 'beam-theme-text', get_template_directory_uri() . '/js/sliding-text-effect.js', array(), _S_VERSION, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
