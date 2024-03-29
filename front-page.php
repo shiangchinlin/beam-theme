@@ -70,7 +70,7 @@ get_header();
 	
 	<div class="home-decoration">
 		<!-- <p class="home-firstname">JEAN</p> -->
-		<p class="home-lastname">JEAN LIN</p>
+		<p class="home-name-deco">JEAN LIN</p>
 	</div>
 
 

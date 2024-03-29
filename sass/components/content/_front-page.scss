@@ -1,5 +1,4 @@
 
-
 .coverphoto {
     height: 100vh;
     width: 100%;
@@ -11,25 +10,14 @@
     position: relative;
 }
 
-.home-firstname {
-	font-size: 3.5rem;
-	margin: 0;
-    color: $primart-color-light;
-    font-family: 'Bodoni Moda';
-//     top: 12rem;
-//     left: 1rem;
-//     z-index: 99;
-}
-
-.home-lastname {
-	font-size: 4rem;
-	margin: 0;
+.home-name-deco {
+	font-size: 2.5rem;
+    text-align: left;
+    margin: 0;
     color: $primart-color-light;
     font-family: 'Bodoni Moda';
     text-shadow: #CB9D81 1px 0 10px;
-    // top: 15rem;
-    // left: 1rem;
-    // z-index: 99;
+    letter-spacing: .5rem;
 }
 
 .home-title-1 {
@@ -60,8 +48,7 @@ span.edit-link {
 
 
 // heading h2
-.wp-block-heading,
-.contact-heading { 
+.wp-block-heading { 
     color: #fff;
     font-size: 1.8rem;
     margin: 1rem;
@@ -85,7 +72,7 @@ span.edit-link {
 }
 
 
-// 600px
+// -------------------------- 600px --------------------------
 @media screen and (min-width: 37.5em) {
 
     .coverphoto {
@@ -93,17 +80,6 @@ span.edit-link {
         height: 100vh;
     }
 
-	.home-firstname {
-		font-size: 4rem;
-        top: 12rem;
-        left: 2rem;
-	}
-
-    .home-lastname {
-        font-size: 4rem;
-        top: 16rem;
-        left: 2rem;
-    }
 
     .home-title-1 {
         font-size: 2rem;
@@ -140,9 +116,18 @@ span.edit-link {
 	div.wp-block-spacer.home-about-spacer {
 		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
 	}
+
+    .wp-block-media-text__media img {
+        margin: 0;
+    }
+
+    .home-name-deco {
+        display: none;
+    }
 }
 
 
+// -------------------------- 800px --------------------------
 @media screen and (min-width: 50em) {
     
     .coverphoto {
@@ -153,17 +138,6 @@ span.edit-link {
         background-size: cover;
     }
 
-	.home-firstname {
-		font-size: 7rem;
-        top: 10rem;
-        left: 12rem;
-	}
-
-    .home-lastname {
-        font-size: 7rem;
-        top: 18rem;
-        left: 12rem;
-    }
 
     .home-title-1 {
         font-size: 2rem;
@@ -185,22 +159,13 @@ span.edit-link {
 	
 }
 
-@media screen and (min-width: 70em) {
+// -------------------------- 1000px --------------------------
+@media screen and (min-width: 62.5em) {
     
     .coverphoto {
         zoom: 1;
         height: 100vh;
         margin: 3rem 0 5rem 0;
-    }
-
-	.home-firstname {
-		font-size: 8rem;
-        text-shadow: $primart-color-light 1px 0 10px;
-	}
-
-    .home-lastname {
-        font-size: 8rem;
-        text-shadow: $primart-color-light 1px 0 10px;
     }
 
     .home-title-1 {
@@ -214,6 +179,7 @@ span.edit-link {
     .home-title-3 {
         font-size: 3rem;
     }
+    
 	
 }
 

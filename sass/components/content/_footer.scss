@@ -7,9 +7,20 @@
     color: $primart-color-dark;
 }
 
-.contact-heading {
+.contact-heading { 
+    color: #fff;
     text-align: center;
-    margin: .5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-shadow: #CB9D81 1px 0 10px;
+    background-color: $primart-color-light;
+    padding: 1rem 0 0 0;
+}
+
+.contact-hr {
+    display: none;
 }
 
 .contact-text {
@@ -33,7 +44,7 @@
     margin: 2rem 0;
     padding: .5rem;
     background-color: $primart-color-dark;
-    color: $subcolor;
+    color: gray;
 }
 
 .menu-item-97 svg{
@@ -42,13 +53,75 @@
 	}
 }
 
+// .home-decoration {
+//     background-color: $primart-color-light;
+// }
 
-@media screen and (min-width: 50em) {
+
+// -------------------------- 600px --------------------------
+@media screen and (min-width: 37.5em) {
+    
     .site-info {
-        margin: 0 0 3rem 0;
+        background-color: $primart-color-dark;
+        color: $primart-color-light;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .footer-author {
-        margin: 3rem 0 0 0;
+    .contact-heading { 
+        color: $primart-color-light;
+        background-color: $primart-color-dark;
+        font-size: 1.8rem;
+        text-shadow: none;
     }
+
+    .contact-text {
+        text-align: left;
+        margin: 0;
+        padding: 1rem 0 0 3rem;
+        font-size: 1.4rem;
+    }
+
+    .menu-social-menu-footer-right-side-container ul {
+        margin: 1rem 2rem 0 4rem;
+    }
+    
 }
+
+
+
+// -------------------------- 800px --------------------------
+@media screen and (min-width: 50em) {
+
+    .contact-heading {
+        text-shadow: #CB9D81 1px 0 10px;
+        font-size: 2rem;
+        text-align: left;
+        padding: 1rem 0 0 3rem;
+    }
+
+    .menu-social-menu-footer-right-side-container ul {
+        margin: 1rem 3rem 0 6rem;
+    }
+    
+}
+
+// -------------------------- 1000px --------------------------
+@media screen and (min-width: 62.5em) {
+
+    .contact-hr {
+        display: block;
+        border: solid #CB9D81 1px;
+        width: 90%;
+    }
+
+    .contact-heading {
+        font-size: 2.5rem;
+    }
+
+    .menu-social-menu-footer-right-side-container ul {
+        margin: 1rem 3rem 0 10rem;
+    }
+
+}
+  
