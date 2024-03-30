@@ -78,6 +78,7 @@ span.edit-link {
     .coverphoto {
         zoom: 1;
         height: 100vh;
+        margin: 0;
     }
 
 
@@ -100,7 +101,9 @@ span.edit-link {
     }
 
     // heading h2
-	.wp-block-heading { 
+
+	.home-work-heading,
+    .home-about-heading { 
 		margin: 1rem;
         color: #fff;
         font-weight: 400;
@@ -109,7 +112,6 @@ span.edit-link {
         text-transform: uppercase;
         text-shadow: #CB9D81 1px 0 10px;
 	}
-
 
 
     //about section styling
@@ -136,8 +138,8 @@ span.edit-link {
         height: 100vh;
         background-position: center;
         background-size: cover;
+        margin: 0;
     }
-
 
     .home-title-1 {
         font-size: 2rem;
@@ -166,6 +168,7 @@ span.edit-link {
         zoom: 1;
         height: 100vh;
         margin: 3rem 0 5rem 0;
+        margin: 0;
     }
 
     .home-title-1 {
@@ -179,7 +182,20 @@ span.edit-link {
     .home-title-3 {
         font-size: 3rem;
     }
+
+    .home-work-heading {
+        text-align: left;
+        margin: 0 0 1rem 3rem;
+        font-size: 4rem;
+    }
+
+    .home-about-heading {
+        text-align: right;
+        margin: 0 3rem 1rem 0;
+        font-size: 4rem;
+    }
     
+
 	
 }
 
@@ -188,6 +204,7 @@ span.edit-link {
     .coverphoto {
         zoom: 1;
         height: 100vh;
+        margin: 0;
     }
 }
 

@@ -25,10 +25,6 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'beam-theme' ); ?></a>
 
-	<!-- cursor -->
-	<div class="cursor-dot-outline"></div>
-	<div class="cursor-dot"></div>
-
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
@@ -62,3 +58,9 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<!-- cursor -->
+	<div class="cursor-dot-outline"></div>
+	<div class="cursor-dot"></div>
+
+</div>

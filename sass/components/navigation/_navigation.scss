@@ -1,43 +1,4 @@
-// cursor
-html,
-body {
-    &,
-    * {
-        cursor: none;        
-    }
-}
 
-.cursor-dot,
-.cursor-dot-outline {
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    transition: opacity 0.3s ease-in-out,
-                transform 0.3s ease-in-out;
-	z-index: 10000;
-}
-
-.cursor-dot {
-    $size: 8px;
-    width: $size;
-    height: $size;
-    background-color: $primart-color-light;
-}
-
-.cursor-dot-outline {
-    $size: 40px;
-    width: $size;
-    height: $size;
-    // background-color: rgba($primary-light, 0.5);
-	background-color: rgba($primart-color-light, 0.5);
-}
-// cursor ends
-
-// ------------------------------------------
 
 // Header
 .site-header {
@@ -126,27 +87,19 @@ body {
 	display: none;
 }
 
-
+//------------------ 800px ---------------------
 @media screen and (min-width: 50em) {
 
 	.site-header {
 		position: fixed;
-		// display: flex;
-		// justify-content: space-between;
-		background-color: transparent;
 		top: 3rem;
-		width: 100%;
+		width: fit-content;
 		z-index: 999;
-	}
-
-	.menu-toggle {
-		display: none;
 	}
 
 	.main-navigation ul {
 		display: flex;
 		flex-direction: column;
-		margin: 1rem 3rem 0 0;
 	}
 
 	.main-navigation li  {
@@ -154,11 +107,9 @@ body {
 	}
 
 	.main-navigation a {
-		font-size: 1rem;
+		font-size: 1.1rem;
 		color: $primart-color-light;
-
 	}
-
 
 }
 
@@ -202,3 +153,42 @@ body {
 // 	}
 
 // }
+
+// cursor
+html,
+body {
+    &,
+    * {
+        cursor: none;        
+    }
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+	z-index: 10000;
+}
+
+.cursor-dot {
+    $size: 8px;
+    width: $size;
+    height: $size;
+    background-color: $primart-color-light;
+}
+
+.cursor-dot-outline {
+    $size: 40px;
+    width: $size;
+    height: $size;
+    // background-color: rgba($primary-light, 0.5);
+	background-color: rgba($primart-color-light, 0.5);
+}
+// cursor ends
