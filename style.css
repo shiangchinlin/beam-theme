@@ -775,7 +775,8 @@ body * {
 	margin: 1rem 0 0 0;
 }
 
-.post-13 {
+.post-13,
+.post-17 {
 	margin: 0 1rem;
 }
 
@@ -903,7 +904,7 @@ body * {
 	background-color: #CB9D81;
 }
 
-.yd-project-tools-icons {
+.project-tools-icons {
 	border: solid #CB9D81 1px;
 	padding: 1rem;
 }
@@ -1116,7 +1117,7 @@ span.edit-link {
 	transform: translate(-50vw);
 }
 
-span {
+.spanSlow {
 	display: inline-block;
 	font-size: 10vw;
 	text-transform: uppercase;
@@ -1133,7 +1134,7 @@ span {
 	background-color: #CB9D81;
 }
 
-.yd-project-tools-icons {
+.project-tools-icons {
 	border: solid #CB9D81 1px;
 	padding: 1rem;
 }
