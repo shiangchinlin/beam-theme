@@ -762,35 +762,26 @@ body * {
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
 	display: none;
 }
 
-.page-content,
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
-}
-
 .page-links {
 	clear: both;
-	margin: 0 0 1.5em;
 }
 
-.post-19,
-.post-17,
-.post-15,
+.entry-title {
+	text-align: center;
+	margin: 1rem 0 0 0;
+}
+
 .post-13 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin: 1rem;
+	margin: 0 1rem;
+}
+
+.error-404 {
+	text-align: center;
+	margin: 10rem 0;
 }
 
 .site-info {
@@ -889,10 +880,6 @@ body * {
 		margin: 1rem 3rem 0 10rem;
 	}
 }
-.site-main h1 {
-	text-align: center;
-}
-
 .post-19 a,
 .post-17 a,
 .post-15 a,
@@ -908,13 +895,21 @@ body * {
 	text-align: center;
 }
 
-.entry-title {
-	display: none;
+.project-tools-h2 {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0.5rem;
+	width: 100%;
+	background-color: #CB9D81;
 }
 
-.project-tools-h2 {
-	font-size: 3rem;
-	background-color: #CB9D81;
+.yd-project-tools-icons {
+	border: solid #CB9D81 1px;
+	padding: 1rem;
+}
+
+.yd-figma-embed {
+	margin: 0;
 }
 
 .coverphoto {
@@ -1131,8 +1126,20 @@ span {
 }
 
 .project-tools-h2 {
-	font-size: 3rem;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0.5rem;
+	width: 100%;
 	background-color: #CB9D81;
+}
+
+.yd-project-tools-icons {
+	border: solid #CB9D81 1px;
+	padding: 1rem;
+}
+
+.yd-figma-embed {
+	margin: 0;
 }
 
 /* Comments

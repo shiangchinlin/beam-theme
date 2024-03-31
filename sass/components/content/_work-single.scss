@@ -1,5 +1,28 @@
 
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
+    // width: 100%;
+    // margin: 0;
+}
+
 .project-tools-h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: .5rem;
+    width: 100%;
     background-color: $primart-color-light;
+}
+
+.yd-project-tools-icons {
+    border: solid $primart-color-light 1px;
+    padding: 1rem;
+}
+
+.yd-figma-embed {
+    margin: 0;
+}
+
+
+//next posts
+.nav-subtitle {
+    
 }

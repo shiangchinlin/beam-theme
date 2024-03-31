@@ -37,7 +37,9 @@
 
 		if ( is_single() ) {
 			the_content();
-		} 
+		} else {
+			the_excerpt();
+		}
 				
 		// the_content(
 		// 	sprintf(
