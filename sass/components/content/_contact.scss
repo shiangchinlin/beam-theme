@@ -1,8 +1,6 @@
 
-
 .site-info {
     padding: .5rem 0 .5rem 0;
-    // background-color: $subcolor;
     background-color: $primart-color-light;
     color: $primart-color-dark;
 }
@@ -14,7 +12,6 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    text-shadow: #CB9D81 1px 0 10px;
     background-color: $primart-color-light;
     padding: 1rem 0 0 0;
 }
@@ -40,8 +37,8 @@
 
 .footer-author {
     text-align: center;
-    font-size: .8rem;
-    margin: 2rem 0;
+    font-size: 1rem;
+    margin: 0 0 4rem 0;
     padding: .5rem;
     background-color: $primart-color-dark;
     color: gray;
@@ -53,9 +50,9 @@
 	}
 }
 
-// .home-decoration {
-//     background-color: $primart-color-light;
-// }
+.github-icon {
+    color: #CB9D81;
+}
 
 
 // -------------------------- 600px --------------------------
@@ -85,9 +82,13 @@
     .menu-social-menu-footer-right-side-container ul {
         margin: 1rem 2rem 0 4rem;
     }
+
+    .contact-hr {
+        display: block;
+        border: solid #CB9D81 .5px;
+    }
     
 }
-
 
 
 // -------------------------- 800px --------------------------
@@ -103,16 +104,18 @@
     .menu-social-menu-footer-right-side-container ul {
         margin: 1rem 3rem 0 6rem;
     }
+
+    .footer-author {
+        margin: 0 0 2rem 0;
+        padding: .5rem;
+    }
     
 }
 
 // -------------------------- 1000px --------------------------
 @media screen and (min-width: 62.5em) {
 
-    .contact-hr {
-        display: block;
-        border: solid #CB9D81 .5px;
-    }
+
 
     .contact-heading {
         font-size: 2.5rem;

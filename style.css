@@ -786,8 +786,15 @@ body * {
 	margin: 10rem 0;
 }
 
-.entry-title {
-	display: none;
+.post-19 a,
+.post-17 a,
+.post-15 a,
+.post-13 a {
+	text-decoration: none;
+}
+
+.work-archive-heading1 {
+	text-align: center;
 }
 
 @media screen and (min-width: 50em) {
@@ -833,7 +840,6 @@ body * {
 	font-weight: 400;
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-	text-shadow: #CB9D81 1px 0 10px;
 	background-color: #CB9D81;
 	padding: 1rem 0 0 0;
 }
@@ -859,8 +865,8 @@ body * {
 
 .footer-author {
 	text-align: center;
-	font-size: 0.8rem;
-	margin: 2rem 0;
+	font-size: 1rem;
+	margin: 0 0 4rem 0;
 	padding: 0.5rem;
 	background-color: #373F48;
 	color: gray;
@@ -868,6 +874,10 @@ body * {
 
 .menu-item-97 svg:hover {
 	background-color: #CB9D81;
+}
+
+.github-icon {
+	color: #CB9D81;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -892,6 +902,10 @@ body * {
 	.menu-social-menu-footer-right-side-container ul {
 		margin: 1rem 2rem 0 4rem;
 	}
+	.contact-hr {
+		display: block;
+		border: solid #CB9D81 0.5px;
+	}
 }
 @media screen and (min-width: 50em) {
 	.contact-heading {
@@ -903,12 +917,12 @@ body * {
 	.menu-social-menu-footer-right-side-container ul {
 		margin: 1rem 3rem 0 6rem;
 	}
+	.footer-author {
+		margin: 0 0 2rem 0;
+		padding: 0.5rem;
+	}
 }
 @media screen and (min-width: 62.5em) {
-	.contact-hr {
-		display: block;
-		border: solid #CB9D81 0.5px;
-	}
 	.contact-heading {
 		font-size: 2.5rem;
 	}
@@ -916,13 +930,6 @@ body * {
 		margin: 1rem 3rem 0 10rem;
 	}
 }
-.post-19 a,
-.post-17 a,
-.post-15 a,
-.post-13 a {
-	text-decoration: none;
-}
-
 .page-about-main {
 	margin: 0 1rem;
 }
