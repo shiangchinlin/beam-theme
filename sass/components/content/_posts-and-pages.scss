@@ -30,7 +30,8 @@
 
 //post margin
 .post-13,
-.post-17 {
+.post-17,
+.post-19 {
 	margin: 0 1rem;
 }
 
@@ -39,4 +40,38 @@
 .error-404 {
 	text-align: center;
 	margin: 10rem 0;
+}
+
+.entry-title {
+	display: none;
+}
+
+// -------------------------- 800px --------------------------
+@media screen and (min-width: 50em) {
+	.post-13,
+	.post-17,
+	.post-19 {
+		margin: 0 1rem 0 8rem;
+		text-align: center;
+		p {
+			text-align: left;
+		}
+		.project-tools-icons {
+			text-align: center;
+		}
+		.work-single-author {
+			text-align: center;
+		}
+	}
+}
+
+// -------------------------- 1000px --------------------------
+@media screen and (min-width: 62.5em) {
+
+	.post-13,
+	.post-17,
+	.post-19 {
+		margin: 0 2rem 0 15rem;
+
+	}
 }

@@ -10,16 +10,6 @@
     position: relative;
 }
 
-.home-name-deco {
-	font-size: 2.5rem;
-    text-align: left;
-    margin: 0;
-    color: $primart-color-light;
-    font-family: 'Bodoni Moda';
-    text-shadow: #CB9D81 1px 0 10px;
-    letter-spacing: .5rem;
-}
-
 .home-title-1 {
     color: $primart-color-light;
     position: absolute;
@@ -30,24 +20,22 @@
 .home-title-2 {
     color: $primart-color-light;
     position: absolute;
-    bottom: 8rem;
+    bottom: 7.5rem;
     right: 1rem;
 }
 
 .home-title-3 {
     color: $primart-color-light;
     position: absolute;
-    bottom: 6rem;
+    bottom: 5rem;
     right: 1rem;
 }
-
 
 span.edit-link {
 	display: none;
 }
 
-
-// heading h2
+// heading
 .wp-block-heading { 
     color: #fff;
     font-size: 1.8rem;
@@ -58,50 +46,42 @@ span.edit-link {
     text-shadow: #CB9D81 1px 0 10px;
 }
 
-// .home-work-heading {
-//     text-align: center;
-// }
-
-// .home-jean-pic {
-//     margin: 1rem;
-// }
+.home-about-h3 {
+    font-size: 1rem;
+    text-transform: none;
+}
 
 .wp-block-media-text__media img {
     width: auto;
     margin: 0 0 1rem 4rem;
 }
 
+.post-7 p {
+    text-align: center;
+}
 
 // -------------------------- 600px --------------------------
 @media screen and (min-width: 37.5em) {
 
-    .coverphoto {
-        zoom: 1;
-        height: 100vh;
-        margin: 0;
-    }
-
-
     .home-title-1 {
         font-size: 2rem;
         bottom: 9.5rem;
-        right: 2rem;
+        right: 10rem;
     }
     
     .home-title-2 {
         font-size: 2rem;
         bottom: 7rem;
-        right: 2rem;
+        right: 10rem;
     }
     
     .home-title-3 {
         font-size: 2rem;
         bottom: 4.5rem;
-        right: 2rem;
+        right: 10rem;
     }
 
-    // heading h2
-
+    // heading 2
 	.home-work-heading,
     .home-about-heading { 
 		margin: 1rem;
@@ -113,25 +93,30 @@ span.edit-link {
         text-shadow: #CB9D81 1px 0 10px;
 	}
 
+    .wp-block-media-text__media img {
+        margin: 0;
+        width: 90%;
+    }
 
-    //about section styling
+    .post-7 p {
+        margin: 0;
+        text-align: left;
+        font-size: .8rem;
+    }
+
 	div.wp-block-spacer.home-about-spacer {
 		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
 	}
-
-    .wp-block-media-text__media img {
-        margin: 0;
-    }
-
-    .home-name-deco {
-        display: none;
-    }
 }
 
 
 // -------------------------- 800px --------------------------
 @media screen and (min-width: 50em) {
     
+    .post-7 {
+        margin: 0 0 0 8rem;
+    }
+
     .coverphoto {
         background-image: url('image/coverphoto-desktop.png');
         zoom: 1;
@@ -141,71 +126,110 @@ span.edit-link {
         margin: 0;
     }
 
-    .home-title-1 {
-        font-size: 2rem;
-        bottom: 12rem;
-        right: 12rem;
-    }
-    
-    .home-title-2 {
-        font-size: 2rem;
-        bottom: 9rem;
-        right: 12rem;
-    }
-    
+    .home-title-1,
+    .home-title-2,
     .home-title-3 {
         font-size: 2rem;
-        bottom: 6rem;
-        right: 12rem;
-    }
-	
-}
-
-// -------------------------- 1000px --------------------------
-@media screen and (min-width: 62.5em) {
-    
-    .coverphoto {
-        zoom: 1;
-        height: 100vh;
-        margin: 3rem 0 5rem 0;
-        margin: 0;
-    }
-
-    .home-title-1 {
-        font-size: 3rem;
-    }
-    
-    .home-title-2 {
-        font-size: 3rem;
-    }
-    
-    .home-title-3 {
-        font-size: 3rem;
+        right: 8rem;
     }
 
     .home-work-heading {
         text-align: left;
-        margin: 0 0 1rem 3rem;
-        font-size: 4rem;
+        font-size: 3rem;
+        margin: 0 0 0 2rem;
     }
 
     .home-about-heading {
         text-align: right;
-        margin: 0 3rem 1rem 0;
-        font-size: 4rem;
+        font-size: 3rem;
+        margin: 0 2rem 0 0;
+    }
+}
+
+
+// -------------------------- 1000px --------------------------
+@media screen and (min-width: 62.5em) {
+    
+
+    .home-title-1 {
+        font-size: 3rem;
+        bottom: 12rem;
     }
     
+    .home-title-2 {
+        font-size: 3rem;
+        bottom: 9rem;
+    }
+    
+    .home-title-3 {
+        font-size: 3rem;
+        bottom: 6rem;
+    }
+
+    .home-work-heading {
+        font-size: 4rem;
+    }
+
+    .home-about-heading {
+        font-size: 4rem;
+        margin: 0 3rem 1rem 0;
+    }
+    
+    .home-about-h3 {
+        font-size: 1.5rem;
+    }
+
+    .post-7 p {
+        font-size: 1rem;
+    }
+
+    .wp-block-media-text__media img {
+        width: 80%;
+    }
 
 	
 }
 
+// -------------------------- 1920px --------------------------
 @media screen and (min-width: 120em) {
     
-    .coverphoto {
-        zoom: 1;
-        height: 100vh;
-        margin: 0;
+    .home-title-1 {
+        font-size: 4rem;
+        bottom: 16rem;       
     }
+    
+    .home-title-2 {
+        font-size: 4rem;
+        bottom: 12rem;
+    }
+    
+    .home-title-3 {
+        font-size: 4rem;
+        bottom: 8rem;
+    }
+
+    .home-work-heading {
+        font-size: 4.5rem;
+    }
+
+    .home-about-heading {
+        font-size: 4.5rem;
+        margin: 0 10rem 1rem 0;
+    }
+    
+    .home-about-h3 {
+        font-size: 2rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .post-7 p {
+        font-size: 1.5rem;
+    }
+
+    .wp-block-media-text__media img {
+        width: 70%;
+    }
+
 }
 
 

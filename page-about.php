@@ -35,7 +35,7 @@ get_header();
 				}
 
 				if ( get_field( 'about_heading2' ) ) {
-					echo '<h2>'. get_field( 'about_heading2' ) .'</h2>';
+					echo '<h2 class="about-other-things">'. get_field( 'about_heading2' ) .'</h2>';
 				}
 
 				if ( get_field( 'about_text2' ) ) {

@@ -19,9 +19,9 @@ get_header();
 
 		<section class="coverphoto">
 
-			<h2 class="home-title-1">Front-End</h2>
-			<h2 class="home-title-2">Web Developer</h2>
-			<h2 class="home-title-3">Web Designer</h2>
+			<h1 class="home-title-1">Front-End</h1>
+			<h1 class="home-title-2">Web Developer</h1>
+			<h1 class="home-title-3">Web Designer</h1>
 		
 			<section class="sliding-effect-section">
 				<div class="wrap">
@@ -64,12 +64,6 @@ get_header();
 			<?php
 			endwhile; // End of the loop.
 			?>
-		
-		<div class="home-decoration">
-			<!-- <p class="home-firstname">JEAN</p> -->
-			<p class="home-name-deco">JEAN LIN</p>
-		</div>
-
 
 	</main><!-- #main -->
 
