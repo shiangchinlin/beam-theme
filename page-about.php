@@ -23,7 +23,7 @@ get_header();
 			if ( function_exists ( 'get_field' ) ) {
 		
 				if ( get_field( 'about_heading1' ) ) {
-					echo '<h1>'. get_field( 'about_heading1' ) .'</h1>';
+					echo '<h1 class="about-h1">'. get_field( 'about_heading1' ) .'</h1>';
 				}
 				
 				if ( get_field( 'about_image' ) ) {
