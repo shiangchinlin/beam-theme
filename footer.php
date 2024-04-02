@@ -31,7 +31,7 @@
 				<?php
 				echo "&copy";
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( '%1$s by %2$s.', 'beam-theme' ), 'beam-theme', '<a href="https://jeanlin.ca/">Jean Lin</a>' );
+				printf( esc_html__( '%1$s by %2$s.', 'beam-theme' ), 'beam-theme', '<a href="https://jeanlin.ca">Jean Lin</a>' );
 				?>
 		</div>
 
