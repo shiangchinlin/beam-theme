@@ -1,6 +1,6 @@
 
 .wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .about-h1 {
@@ -10,12 +10,4 @@
 .about-other-things {
     margin: 2rem 0 1rem 0;
     color: $primart-color-light;
-}
-
-// -------------------------- 800px --------------------------
-@media screen and (min-width: 50em) {
-    
-    .wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
-        margin: 1rem 10rem;
-    }
 }
