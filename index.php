@@ -14,7 +14,6 @@
 
 get_header();
 ?>
-
 	<main id="primary" class="site-main">
 		<h1 class="work-archive-heading1">MY WORK</h1>
 
@@ -46,5 +45,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-
 get_footer();

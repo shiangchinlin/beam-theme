@@ -54,7 +54,6 @@
     color: #CB9D81;
 }
 
-
 // -------------------------- 600px --------------------------
 @media screen and (min-width: 37.5em) {
     
@@ -87,9 +86,7 @@
         display: block;
         border: solid #CB9D81 .5px;
     }
-    
 }
-
 
 // -------------------------- 800px --------------------------
 @media screen and (min-width: 50em) {
@@ -108,22 +105,17 @@
     .footer-author {
         margin: 0 0 2rem 0;
         padding: .5rem;
-    }
-    
+    }   
 }
 
 // -------------------------- 1000px --------------------------
 @media screen and (min-width: 62.5em) {
-
-
 
     .contact-heading {
         font-size: 2.5rem;
     }
 
     .menu-social-menu-footer-right-side-container ul {
-        margin: 1rem 3rem 0 10rem;
+        margin: 1rem 3rem 0 12rem;
     }
-
 }
-  

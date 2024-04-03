@@ -1,5 +1,4 @@
 
-
 // Header
 .site-header {
 
@@ -9,10 +8,8 @@
 	padding: 0;
 }
 
-
 .main-navigation {
 	display: block;
-	// width: 100%;
 
 	ul {
 		display: none;
@@ -87,32 +84,6 @@
 	display: none;
 }
 
-//------------------ 800px ---------------------
-@media screen and (min-width: 50em) {
-
-	.site-header {
-		position: fixed;
-		top: 3rem;
-		width: fit-content;
-		z-index: 999;
-	}
-
-	.main-navigation ul {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.main-navigation li  {
-		padding: .5rem 2.5rem;
-	}
-
-	.main-navigation a {
-		font-size: 1.1rem;
-		color: $primart-color-light;
-	}
-
-}
-
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
@@ -135,26 +106,61 @@
 	}
 }
 
+//------------------ 800px ---------------------
+@media screen and (min-width: 50em) {
 
+	.site-header {
+		position: fixed;
+		top: 4rem;
+		width: fit-content;
+		z-index: 999;
+	}
 
-// @media screen and (min-width: 80em) {
-	
-// 	.main-navigation ul {
-// 		display: flex;
-// 		margin: 6rem 0 0 4rem;
-// 	}
+	.main-navigation ul {
+		display: flex;
+		flex-direction: column;
+	}
 
-// 	.main-navigation li  {
-// 		padding: .5rem 2.5rem;
-// 	}
+	.main-navigation li  {
+		padding: .5rem 2.5rem;
+	}
 
-// 	.main-navigation a {
-// 		font-size: 1.5rem;
-// 	}
+	.main-navigation a {
+		font-size: 1.1rem;
+		color: $primart-color-light;
+		
+		&:hover {
+			color: #fff;
+		}
+	}
+}
 
-// }
+// -------------------------- 1000px --------------------------
+@media screen and (min-width: 62.5em) {
+    
+	.main-navigation a {
+		font-size: 1.5rem;
+	}
+}
 
-// cursor
+// -------------------------- 1920px --------------------------
+@media screen and (min-width: 120em) {
+
+	.main-navigation a {
+		font-size: 2.5rem;
+	}
+
+	.main-navigation li  {
+		padding: 1rem 3rem;
+	}
+
+	.site-header {
+		top: 6rem;
+		left: 2rem;
+	}
+}
+
+// -------------- cursor effect--------------
 html,
 body {
     &,
@@ -191,4 +197,3 @@ body {
     // background-color: rgba($primary-light, 0.5);
 	background-color: rgba($primart-color-light, 0.5);
 }
-// cursor ends

@@ -37,13 +37,13 @@ span.edit-link {
 
 // heading
 .wp-block-heading { 
-    color: #fff;
+    color: $subcolor;
     font-size: 1.8rem;
     margin: 1rem;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    text-shadow: #CB9D81 1px 0 10px;
+    text-shadow: $primart-color-light 1px 0 10px;
 }
 
 .home-about-h3 {
@@ -85,12 +85,12 @@ span.edit-link {
 	.home-work-heading,
     .home-about-heading { 
 		margin: 1rem;
-        color: #fff;
+        color: $subcolor;
         font-weight: 400;
         font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
-        text-shadow: #CB9D81 1px 0 10px;
+        text-shadow: $primart-color-light 1px 0 10px;
 	}
 
     .wp-block-media-text__media img {
@@ -105,7 +105,7 @@ span.edit-link {
     }
 
 	div.wp-block-spacer.home-about-spacer {
-		background: linear-gradient(to top, #CB9D81, #CB9D81 10%, #373F48 75%);
+		background: linear-gradient(to top, $primart-color-light 10%,$primart-color-dark 75%);
 	}
 }
 
@@ -146,11 +146,8 @@ span.edit-link {
     }
 }
 
-
 // -------------------------- 1000px --------------------------
 @media screen and (min-width: 62.5em) {
-    
-
     .home-title-1 {
         font-size: 3rem;
         bottom: 12rem;
@@ -185,13 +182,15 @@ span.edit-link {
 
     .wp-block-media-text__media img {
         width: 80%;
-    }
-
-	
+    }	
 }
 
 // -------------------------- 1920px --------------------------
 @media screen and (min-width: 120em) {
+    
+    .post-7 {
+        margin: 0 0 0 12rem;
+    }
     
     .home-title-1 {
         font-size: 4rem;
@@ -253,11 +252,11 @@ span.edit-link {
 	display: inline-block;
   }
   .left {
-	color:#CB9D81;
+	color:$primart-color-light
 	transform: skew(0deg, -15deg);
   }
   .right {
-	color: white;
+	color: $subcolor;
 	transform: skew(0deg, 15deg);
   }
   .left .content {
@@ -275,5 +274,5 @@ span.edit-link {
 	text-transform: uppercase;
 	line-height: .8;
 	transition: ease-out .6s;
-	text-shadow: #CB9D81 1px 0 10px;
+	text-shadow: $primart-color-light 1px 0 10px;
   }

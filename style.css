@@ -682,26 +682,6 @@ textarea {
 	display: none;
 }
 
-@media screen and (min-width: 50em) {
-	.site-header {
-		position: fixed;
-		top: 3rem;
-		width: -moz-fit-content;
-		width: fit-content;
-		z-index: 999;
-	}
-	.main-navigation ul {
-		display: flex;
-		flex-direction: column;
-	}
-	.main-navigation li {
-		padding: 0.5rem 2.5rem;
-	}
-	.main-navigation a {
-		font-size: 1.1rem;
-		color: #CB9D81;
-	}
-}
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
@@ -724,6 +704,46 @@ textarea {
 	flex: 1 0 50%;
 }
 
+@media screen and (min-width: 50em) {
+	.site-header {
+		position: fixed;
+		top: 4rem;
+		width: -moz-fit-content;
+		width: fit-content;
+		z-index: 999;
+	}
+	.main-navigation ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.main-navigation li {
+		padding: 0.5rem 2.5rem;
+	}
+	.main-navigation a {
+		font-size: 1.1rem;
+		color: #CB9D81;
+	}
+	.main-navigation a:hover {
+		color: #fff;
+	}
+}
+@media screen and (min-width: 62.5em) {
+	.main-navigation a {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (min-width: 120em) {
+	.main-navigation a {
+		font-size: 2.5rem;
+	}
+	.main-navigation li {
+		padding: 1rem 3rem;
+	}
+	.site-header {
+		top: 6rem;
+		left: 2rem;
+	}
+}
 html,
 html *,
 body,
@@ -770,19 +790,16 @@ body * {
 	clear: both;
 }
 
-.entry-title {
-	color: #373F48;
+.error-404 {
+	text-align: center;
+	margin: 10rem 0;
 }
 
 .post-13,
 .post-17,
-.post-19 {
+.post-19,
+.page-about-main {
 	margin: 0 1rem;
-}
-
-.error-404 {
-	text-align: center;
-	margin: 10rem 0;
 }
 
 .post-19 a,
@@ -799,31 +816,71 @@ body * {
 @media screen and (min-width: 50em) {
 	.post-13,
 	.post-17,
-	.post-19 {
+	.post-19,
+	.page-about-main {
 		margin: 0 1rem 0 8rem;
 		text-align: center;
 	}
 	.post-13 p,
 	.post-17 p,
-	.post-19 p {
+	.post-19 p,
+	.page-about-main p {
 		text-align: left;
 	}
 	.post-13 .project-tools-icons,
 	.post-17 .project-tools-icons,
-	.post-19 .project-tools-icons {
+	.post-19 .project-tools-icons,
+	.page-about-main .project-tools-icons {
 		text-align: center;
 	}
 	.post-13 .work-single-author,
 	.post-17 .work-single-author,
-	.post-19 .work-single-author {
+	.post-19 .work-single-author,
+	.page-about-main .work-single-author {
 		text-align: center;
 	}
 }
 @media screen and (min-width: 62.5em) {
 	.post-13,
 	.post-17,
-	.post-19 {
-		margin: 0 2rem 0 15rem;
+	.post-19,
+	.page-about-main {
+		margin: 0 8rem 0 10rem;
+	}
+}
+@media screen and (min-width: 75em) {
+	.post-13,
+	.post-17,
+	.post-19,
+	.page-about-main {
+		margin: 0 10rem 0 15rem;
+	}
+}
+@media screen and (min-width: 87.5em) {
+	.post-13,
+	.post-17,
+	.post-19,
+	.page-about-main {
+		margin: 0 15rem 0 23rem;
+	}
+}
+@media screen and (min-width: 100em) {
+	.post-13,
+	.post-17,
+	.post-19,
+	.page-about-main {
+		margin: 0 25rem 0 27em;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (min-width: 120em) {
+	.post-13,
+	.post-17,
+	.post-19,
+	.page-about-main {
+		margin: 0 30rem 0 40em;
 	}
 }
 .site-info {
@@ -926,13 +983,9 @@ body * {
 		font-size: 2.5rem;
 	}
 	.menu-social-menu-footer-right-side-container ul {
-		margin: 1rem 3rem 0 10rem;
+		margin: 1rem 3rem 0 12rem;
 	}
 }
-.page-about-main {
-	margin: 0 1rem;
-}
-
 .wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
 	margin: 1rem;
 }
@@ -947,13 +1000,8 @@ body * {
 }
 
 @media screen and (min-width: 50em) {
-	.page-about-main {
-		margin: 0 1rem 0 8rem;
-	}
-}
-@media screen and (min-width: 62.5em) {
-	.page-about-main {
-		margin: 0 2rem 0 15rem;
+	.wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
+		margin: 1rem 10rem;
 	}
 }
 .project-tools-h2 {
@@ -1010,7 +1058,7 @@ span.edit-link {
 }
 
 .wp-block-heading {
-	color: #fff;
+	color: #F5F6F6;
 	font-size: 1.8rem;
 	margin: 1rem;
 	font-weight: 400;
@@ -1052,7 +1100,7 @@ span.edit-link {
 	.home-work-heading,
 	.home-about-heading {
 		margin: 1rem;
-		color: #fff;
+		color: #F5F6F6;
 		font-weight: 400;
 		font-size: 2rem;
 		font-family: "Montserrat", sans-serif;
@@ -1132,6 +1180,9 @@ span.edit-link {
 	}
 }
 @media screen and (min-width: 120em) {
+	.post-7 {
+		margin: 0 0 0 12rem;
+	}
 	.home-title-1 {
 		font-size: 4rem;
 		bottom: 16rem;

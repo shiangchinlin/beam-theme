@@ -14,7 +14,6 @@
 
 get_header();
 ?>
-
 	<main id="primary" class="site-main page-about-main">
 
 
@@ -41,7 +40,6 @@ get_header();
 				if ( get_field( 'about_text2' ) ) {
 					the_field( 'about_text2' );
 				}
-		
 			} 
 			?>
 		</div>
@@ -58,5 +56,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-
 get_footer();

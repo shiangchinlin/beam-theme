@@ -10,7 +10,6 @@
  */
 
 ?>
-
 	<footer id="colophon" class="site-footer">
 		
 		<hr class="contact-hr"></hr>

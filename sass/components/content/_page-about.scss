@@ -1,8 +1,4 @@
 
-.page-about-main {
-    margin: 0 1rem;
-}
-
 .wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
     margin: 1rem;
 }
@@ -18,18 +14,8 @@
 
 // -------------------------- 800px --------------------------
 @media screen and (min-width: 50em) {
-
-    .page-about-main {
-        margin: 0 1rem 0 8rem;
+    
+    .wpcp-carousel-wrapper .wpcp-carousel-content-wrapper {
+        margin: 1rem 10rem;
     }
-
-}
-
-// -------------------------- 1000px --------------------------
-@media screen and (min-width: 62.5em) {
-
-    .page-about-main {
-        margin: 0 2rem 0 15rem;
-    }
-
 }
