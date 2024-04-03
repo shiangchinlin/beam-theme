@@ -130,7 +130,7 @@
 		color: $primart-color-light;
 		
 		&:hover {
-			color: #fff;
+			color: $subcolor;
 		}
 	}
 }
@@ -194,6 +194,5 @@ body {
     $size: 40px;
     width: $size;
     height: $size;
-    // background-color: rgba($primary-light, 0.5);
 	background-color: rgba($primart-color-light, 0.5);
 }

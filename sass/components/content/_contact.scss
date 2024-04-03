@@ -6,7 +6,7 @@
 }
 
 .contact-heading { 
-    color: #fff;
+    color: $subcolor;
     text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
@@ -44,16 +44,6 @@
     color: gray;
 }
 
-.menu-item-97 svg{
-    &:hover {
-		background-color: $primart-color-light;
-	}
-}
-
-.github-icon {
-    color: #CB9D81;
-}
-
 // -------------------------- 600px --------------------------
 @media screen and (min-width: 37.5em) {
     
@@ -84,7 +74,7 @@
 
     .contact-hr {
         display: block;
-        border: solid #CB9D81 .5px;
+        border: solid $primart-color-light .5px;
     }
 }
 
@@ -92,7 +82,7 @@
 @media screen and (min-width: 50em) {
 
     .contact-heading {
-        text-shadow: #CB9D81 1px 0 10px;
+        text-shadow: $primart-color-light 1px 0 10px;
         font-size: 2rem;
         text-align: left;
         padding: 1rem 0 0 3rem;
