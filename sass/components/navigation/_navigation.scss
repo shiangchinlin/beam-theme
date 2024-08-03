@@ -122,11 +122,11 @@
 	}
 
 	.main-navigation li  {
-		padding: .5rem 2.5rem;
+		padding: .4rem 3rem;
 	}
 
 	.main-navigation a {
-		font-size: 1.1rem;
+		font-size: 1.5rem;
 		color: $primart-color-light;
 		
 		&:hover {
@@ -139,7 +139,23 @@
 @media screen and (min-width: 62.5em) {
     
 	.main-navigation a {
-		font-size: 1.5rem;
+		font-size: 2rem;
+	}
+
+	.main-navigation li  {
+		padding: .2rem 4rem;
+	}
+}
+
+// -------------------------- 1600px --------------------------
+@media screen and (min-width: 100em) {
+	
+	.main-navigation a {
+		font-size: 2.5rem;
+	}
+
+	.main-navigation li  {
+		padding: .5rem 4.5rem;
 	}
 }
 
@@ -147,11 +163,11 @@
 @media screen and (min-width: 120em) {
 
 	.main-navigation a {
-		font-size: 2.5rem;
+		font-size: 3rem;
 	}
 
 	.main-navigation li  {
-		padding: 1rem 3rem;
+		padding: .5rem 4.5rem;
 	}
 
 	.site-header {

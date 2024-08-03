@@ -1,12 +1,54 @@
+// ------------mobile--------------
+// -------------------------sliding text effect------------------------------
+* {
+	margin: 0;
+	padding: 0;
+  }
+  .sliding-effect-section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .line {
+	width: 100vw;
+  }
+  .left, .right {
+	width: 50vw;
+	overflow: hidden;
+	display: inline-block;
+  }
+  .left {
+	color:$primart-color-light;
+	transform: skew(0deg, -15deg);
+  }
+  .right {
+	color: $subcolor;
+	transform: skew(0deg, 15deg);
+  }
+  .left .content {
+	width: 100vw;
+	text-align: center;
+  }
+  .right .content {
+	width: 100vw;
+	text-align: center;
+	transform: translate(-50vw);
+  }
+  .spanSlow {
+	display: inline-block;
+	font-size: 13vw;
+	text-transform: uppercase;
+	line-height: .8;
+	transition: ease-out .6s;
+	text-shadow: $primart-color-light 1px 0 10px;
+  }
+
 
 .coverphoto {
-    // height: 100vh;
-    // width: 100%;
     background-image: url('image/coverphoto-mobile.png');
     background-repeat: no-repeat;
     background-position: center;
-    // zoom: 0.8;
-    margin: 2rem 0 2rem 0;
     position: relative;
 }
 
@@ -63,6 +105,10 @@ span.edit-link {
 // -------------------------- 600px --------------------------
 @media screen and (min-width: 37.5em) {
 
+    .spanSlow {
+        font-size: 10vh;
+    }
+
     .home-title-1 {
         font-size: 2rem;
         bottom: 9.5rem;
@@ -113,6 +159,10 @@ span.edit-link {
 // -------------------------- 800px --------------------------
 @media screen and (min-width: 50em) {
     
+    .spanSlow {
+        font-size: 13vh;
+    }
+
     .post-7 {
         margin: 0 0 0 8rem;
     }
@@ -130,7 +180,7 @@ span.edit-link {
     .home-title-2,
     .home-title-3 {
         font-size: 2rem;
-        right: 8rem;
+        right: 5rem;
     }
 
     .home-work-heading {
@@ -148,19 +198,27 @@ span.edit-link {
 
 // -------------------------- 1000px --------------------------
 @media screen and (min-width: 62.5em) {
+
+    .spanSlow {
+        font-size: 18vh;
+    }
+
     .home-title-1 {
-        font-size: 3rem;
+        font-size: 3.3rem;
         bottom: 12rem;
+        right: 6rem;
     }
     
     .home-title-2 {
-        font-size: 3rem;
-        bottom: 9rem;
+        font-size: 3.3rem;
+        bottom: 8rem;
+        right: 6rem;
     }
     
     .home-title-3 {
-        font-size: 3rem;
-        bottom: 6rem;
+        font-size: 3.3rem;
+        bottom: 4rem;
+        right: 6rem;
     }
 
     .home-work-heading {
@@ -185,26 +243,54 @@ span.edit-link {
     }	
 }
 
+// -------------------------- 1600px --------------------------
+@media screen and (min-width: 100em) {
+
+    .home-title-1 {
+        font-size: 4rem;
+        bottom: 13rem;
+        right: 6rem;
+    }
+    
+    .home-title-2 {
+        font-size: 4rem;
+        bottom: 9rem;
+        right: 6rem;
+    }
+    
+    .home-title-3 {
+        font-size: 4rem;
+        bottom: 5rem;
+        right: 6rem;
+    }
+
+
+}
+
 // -------------------------- 1920px --------------------------
 @media screen and (min-width: 120em) {
-    
+
+    .spanSlow {
+        font-size: 20vh;
+    }
+
     .post-7 {
         margin: 0 0 0 12rem;
     }
     
     .home-title-1 {
-        font-size: 4rem;
-        bottom: 16rem;       
+        font-size: 4.5rem;
+        bottom: 18rem;       
     }
     
     .home-title-2 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         bottom: 12rem;
     }
     
     .home-title-3 {
-        font-size: 4rem;
-        bottom: 8rem;
+        font-size: 4.5rem;
+        bottom: 6rem;
     }
 
     .home-work-heading {
@@ -230,49 +316,3 @@ span.edit-link {
     }
 
 }
-
-
-// -------------------------sliding text effect------------------------------
-* {
-	margin: 0;
-	padding: 0;
-  }
-  .sliding-effect-section {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  .line {
-	width: 100vw;
-  }
-  .left, .right {
-	width: 50vw;
-	overflow: hidden;
-	display: inline-block;
-  }
-  .left {
-	color:$primart-color-light;
-	transform: skew(0deg, -15deg);
-  }
-  .right {
-	color: $subcolor;
-	transform: skew(0deg, 15deg);
-  }
-  .left .content {
-	width: 100vw;
-	text-align: center;
-  }
-  .right .content {
-	width: 100vw;
-	text-align: center;
-	transform: translate(-50vw);
-  }
-  .spanSlow {
-	display: inline-block;
-	font-size: 10vw;
-	text-transform: uppercase;
-	line-height: .8;
-	transition: ease-out .6s;
-	text-shadow: $primart-color-light 1px 0 10px;
-  }
