@@ -722,6 +722,7 @@ textarea {
 	.main-navigation a {
 		font-size: 1.5rem;
 		color: #CB9D81;
+		text-shadow: 1px 0 10px;
 	}
 	.main-navigation a:hover {
 		color: #F5F6F6;
@@ -732,7 +733,7 @@ textarea {
 		font-size: 2rem;
 	}
 	.main-navigation li {
-		padding: 0.2rem 4rem;
+		padding: 0.2rem 3rem;
 	}
 }
 @media screen and (min-width: 100em) {
@@ -748,7 +749,7 @@ textarea {
 		font-size: 3rem;
 	}
 	.main-navigation li {
-		padding: 0.5rem 4.5rem;
+		padding: 0.5rem 4rem;
 	}
 	.site-header {
 		top: 6rem;
@@ -1116,7 +1117,7 @@ span.edit-link {
 
 .wp-block-media-text__media img {
 	width: auto;
-	margin: 0 0 1rem 4.5rem;
+	margin: 0 0 1rem 5rem;
 }
 
 .post-7 p {
@@ -1153,13 +1154,13 @@ span.edit-link {
 		text-shadow: #CB9D81 1px 0 10px;
 	}
 	.wp-block-media-text__media img {
-		margin: 0;
-		width: 90%;
+		margin: 0 0 0 7.5rem;
+		width: 50%;
 	}
 	.post-7 p {
 		margin: 0;
 		text-align: left;
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	div.wp-block-spacer.home-about-spacer {
 		background: linear-gradient(to top, #CB9D81 10%, #373F48 75%);
@@ -1196,8 +1197,15 @@ span.edit-link {
 		font-size: 3rem;
 		margin: 0 2rem 0 0;
 	}
+	.wp-block-media-text__media img {
+		margin: 0;
+		width: 90%;
+	}
 }
 @media screen and (min-width: 62.5em) {
+	.post-7 {
+		margin: 0 0 0 10rem;
+	}
 	.spanSlow {
 		font-size: 18vh;
 	}
@@ -1226,14 +1234,14 @@ span.edit-link {
 	.home-about-h3 {
 		font-size: 1.5rem;
 	}
-	.post-7 p {
-		font-size: 1rem;
-	}
 	.wp-block-media-text__media img {
 		width: 80%;
 	}
 }
 @media screen and (min-width: 100em) {
+	.post-7 {
+		margin: 0 0 0 15rem;
+	}
 	.home-title-1 {
 		font-size: 4rem;
 		bottom: 13rem;
@@ -1249,13 +1257,21 @@ span.edit-link {
 		bottom: 5rem;
 		right: 6rem;
 	}
+	.wp-block-media-text__media img {
+		margin: 0 0 0 4rem;
+		width: 75%;
+	}
+	.post-7 p {
+		margin: 0;
+		font-size: 1.4rem;
+	}
 }
 @media screen and (min-width: 120em) {
 	.spanSlow {
 		font-size: 20vh;
 	}
 	.post-7 {
-		margin: 0 0 0 12rem;
+		margin: 0 0 0 18rem;
 	}
 	.home-title-1 {
 		font-size: 4.5rem;
@@ -1274,17 +1290,14 @@ span.edit-link {
 	}
 	.home-about-heading {
 		font-size: 4.5rem;
-		margin: 0 10rem 1rem 0;
-	}
-	.home-about-h3 {
-		font-size: 2rem;
-		margin: 0 0 1rem 0;
+		margin: 0 6rem 1rem 0;
 	}
 	.post-7 p {
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.wp-block-media-text__media img {
-		width: 70%;
+		margin: 0;
+		width: 80%;
 	}
 }
 .project-tools-h2 {

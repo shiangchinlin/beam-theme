@@ -128,6 +128,7 @@
 	.main-navigation a {
 		font-size: 1.5rem;
 		color: $primart-color-light;
+		text-shadow:1px 0 10px;
 		
 		&:hover {
 			color: $subcolor;
@@ -143,7 +144,7 @@
 	}
 
 	.main-navigation li  {
-		padding: .2rem 4rem;
+		padding: .2rem 3rem;
 	}
 }
 
@@ -167,7 +168,7 @@
 	}
 
 	.main-navigation li  {
-		padding: .5rem 4.5rem;
+		padding: .5rem 4rem;
 	}
 
 	.site-header {

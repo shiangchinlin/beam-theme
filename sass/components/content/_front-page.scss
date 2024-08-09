@@ -95,7 +95,7 @@ span.edit-link {
 
 .wp-block-media-text__media img {
     width: auto;
-    margin: 0 0 1rem 4.5rem;
+    margin: 0 0 1rem 5rem;
 }
 
 .post-7 p {
@@ -140,14 +140,14 @@ span.edit-link {
 	}
 
     .wp-block-media-text__media img {
-        margin: 0;
-        width: 90%;
+        margin: 0 0 0 7.5rem;
+        width: 50%;
     }
 
     .post-7 p {
         margin: 0;
         text-align: left;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
 	div.wp-block-spacer.home-about-spacer {
@@ -194,10 +194,19 @@ span.edit-link {
         font-size: 3rem;
         margin: 0 2rem 0 0;
     }
+
+    .wp-block-media-text__media img {
+        margin: 0;
+        width: 90%;
+    }
 }
 
 // -------------------------- 1000px --------------------------
 @media screen and (min-width: 62.5em) {
+
+    .post-7 {
+        margin: 0 0 0 10rem;
+    }
 
     .spanSlow {
         font-size: 18vh;
@@ -234,10 +243,6 @@ span.edit-link {
         font-size: 1.5rem;
     }
 
-    .post-7 p {
-        font-size: 1rem;
-    }
-
     .wp-block-media-text__media img {
         width: 80%;
     }	
@@ -245,6 +250,10 @@ span.edit-link {
 
 // -------------------------- 1600px --------------------------
 @media screen and (min-width: 100em) {
+
+    .post-7 {
+        margin: 0 0 0 15rem;
+    }
 
     .home-title-1 {
         font-size: 4rem;
@@ -264,6 +273,15 @@ span.edit-link {
         right: 6rem;
     }
 
+    .wp-block-media-text__media img {
+        margin: 0 0 0 4rem;
+        width: 75%;
+    }
+
+    .post-7 p {
+        margin: 0;
+        font-size: 1.4rem;
+    }
 
 }
 
@@ -275,7 +293,7 @@ span.edit-link {
     }
 
     .post-7 {
-        margin: 0 0 0 12rem;
+        margin: 0 0 0 18rem;
     }
     
     .home-title-1 {
@@ -299,20 +317,16 @@ span.edit-link {
 
     .home-about-heading {
         font-size: 4.5rem;
-        margin: 0 10rem 1rem 0;
-    }
-    
-    .home-about-h3 {
-        font-size: 2rem;
-        margin: 0 0 1rem 0;
+        margin: 0 6rem 1rem 0;
     }
 
     .post-7 p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .wp-block-media-text__media img {
-        width: 70%;
+        margin: 0;
+        width: 80%;
     }
 
 }
