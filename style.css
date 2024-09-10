@@ -810,13 +810,14 @@ body * {
 .post-13,
 .post-17,
 .post-19,
+.post-541,
 .page-about-main {
 	margin: 0 1rem;
 }
 
 .post-19 a,
 .post-17 a,
-.post-15 a,
+.post-541 a,
 .post-13 a {
 	text-decoration: none;
 }
@@ -829,6 +830,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 1rem 0 8rem;
 		text-align: center;
@@ -836,18 +838,21 @@ body * {
 	.post-13 p,
 	.post-17 p,
 	.post-19 p,
+	.post-541 p,
 	.page-about-main p {
 		text-align: left;
 	}
 	.post-13 .project-tools-icons,
 	.post-17 .project-tools-icons,
 	.post-19 .project-tools-icons,
+	.post-541 .project-tools-icons,
 	.page-about-main .project-tools-icons {
 		text-align: center;
 	}
 	.post-13 .work-single-author,
 	.post-17 .work-single-author,
 	.post-19 .work-single-author,
+	.post-541 .work-single-author,
 	.page-about-main .work-single-author {
 		text-align: center;
 	}
@@ -856,6 +861,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 8rem 0 10rem;
 	}
@@ -864,6 +870,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 10rem 0 15rem;
 	}
@@ -872,6 +879,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 15rem 0 23rem;
 	}
@@ -880,6 +888,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 25rem 0 27em;
 	}
@@ -891,6 +900,7 @@ body * {
 	.post-13,
 	.post-17,
 	.post-19,
+	.post-541,
 	.page-about-main {
 		margin: 0 30rem 0 40em;
 	}
